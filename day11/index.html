@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML From</title>
+
+</head>
+<body>
+    <form action="" method="post"> 
+
+        <h1 align="center">Form</h1>
+
+        <fieldset>
+
+            <legend>Enter your personal details</legend>
+
+          <label for="name">full name</label> 
+          <input type="text" name="fname">
+<br></br>
+          <label for="name">Password</label>   
+          <input type="password" name="password"> 
+<br></br>
+
+          <label for="gender">Gender</label>   
+          <input type="radio" name="gender"> 
+          <label for="male">Male</label>
+          <input type="radio" name="gender"> 
+          <label for="female">female</label>
+      <br></br>
+     
+         <label>hobbies</label>
+         <input type="checkbox" name="hobbies" id="music"/>
+         <label for="music">music</label>
+         <label for="dance">dance</label>
+      <br></br>
+         <input type="checkbox" name="hobbies" id="coding"/>
+         <label for="coding">coding</label>
+         <input type="checkbox" name="hobbies" id="gaming"/>
+         <label for="gaming">gaming</label>
+      <br></br>
+
+      <label> Message</label>
+      <textarea name="Message" id="Mes" cols="30" rows="8">
+      </textarea>
+
+      <br></br>
+
+      <label>Country</label>
+        <select name="Country" id="Con" size="3" multiple>
+            <option value="in" selected>india</option>
+            <option value="ch">china</option>
+            <option value="us">united states</option>
+            <option value="indo">indonesia</option>
+            <option value="pak">pakistan</option>
+            <option value="bra">brazil</option>
+            <option value="rus">russia</option>
+            <option value="ja">japan</option>
+
+        </select>
+
+        <br></br>
+        <label>Cars</label>
+        <select name="Cars" id="Car">
+            <option value="">verna</option>
+            <option value="">harrier</option>
+            <option value="">safari</option>
+            <option value="">fortuner</option>
+            <option value="">innova</option>
+        </select>
+
+        <label>Upload File</label>
+        <br/>
+        <input type="file" accept="image/*"/>
+        <input type="submit" value="save">
+        <input type="reset">
+        <input type="image" src="../day06/mango.avif" width="20px"
+         alt="submit button">
+        </fieldset>
+
+     </form>
+</body>
+</html>
